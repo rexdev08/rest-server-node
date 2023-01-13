@@ -1,0 +1,19 @@
+GET http://localhost:3000/api/usuarios
+###
+
+GET http://localhost:3000/api/usuarios?q=hola&nombre=raimundo&apikey=1555
+###
+
+POST http://localhost:3000/api/usuarios
+Content-Type: application/json
+
+{
+    "nombre": "Fernando Herrera",
+    "edad": 35
+}
+###
+
+PUT http://localhost:3000/api/usuarios/10
+###
+
+DELETE http://localhost:3000/api/usuarios
